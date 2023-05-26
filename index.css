@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url(img3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;  
+    background-size: cover;   
+}
+.nav{
+    /* background: rgb(0, 63, 0); */
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border-bottom: solid 5px greenyellow ; */
+    
+}
+.links ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: cyan;
+    margin-right: 50px;
+}
+.links ul li:hover{
+    border-right-style: double;
+    font-size: 10px;
+    transition: 1.5s;
+}
+.side-nav ul li{
+    list-style-type: none;
+    color: greenyellow;
+    margin-left: 100px;
+    
+   
+}
+.side-nav img{
+    width: 50px;
+}
+.side-nav img:hover{
+    width: 70px;
+    transition: 3s ;
+}
+.side-nav{
+    display: flex;
+}
+.side-nav:hover{
+    color: teal;
+    font-size: 20px;
+    transition: 1.2s;
+}
+.div1{
+    font-size: 20px;
+    text-align: center;
+    color: chartreuse;
+    background-color: rgb(190, 152, 95);
+    margin-top: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.div1:hover{
+    font-size: 10px;
+    color: green;
+    transform: 3s;
+    mar
+}
+.div3 img{
+    width: 200px;
+}
+.div2{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    background-color: chartreuse;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50px;
+    
+
+}
+.div5{
+    text-align: center;
+    
+}
+
+.active .links ul li{
+    background-color: greenyellow;
+    border-radius: 3px;
+}
+.idiv2 img{
+    width: 300px;
+    padding-top: 50px;
+    border: 1px solid green;
+    border-radius: 100px;
+}
+.idiv2 img:hover{
+    width: 400px;
+    border: 3px solid greenyellow;
+    transition: 1.5s;
+}
+.idiv1{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: rgb(8, 248, 8);
+    border-radius: 40px;
+}
+.idiv4{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    background-color: rgb(6, 233, 6);
+    border-radius: 40px;
+}
+.idiv3{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.idiv5{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.ih1{
+    color: chocolate;
+    text-decoration-line: underline;
+}
+.cldiv1{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.cldiv2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.cldiv3{
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-top: 20px; */
+
+}
+.form{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.submit{
+    width: 100%;
+    text-align: center;
+    color: blue;
+    font-weight: 500px;
+}
+.sdiv1 img{
+    width: 200px;
+    margin-left: 500px;
+}
+.sdiv1 h1{
+    text-align: center;
+    font-size: 50px;
+}
+.sdiv3 h5{
+    font-size:30px ;
+    
+}
+.sdiv2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.form2{
+    color: white;
+}
